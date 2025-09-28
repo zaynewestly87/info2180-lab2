@@ -1,5 +1,7 @@
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #2D3748;
     margin: 0;
     padding: 0;
     padding: 20px;
@@ -19,6 +21,16 @@ body {
 
 header {
     background-color: #63B3ED;
+    color: #FFFFFF;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.container aside h3 {
+    color: #48BB78;
 }
 
 main {
@@ -41,4 +53,9 @@ aside {
 header, footer {
     padding: 20px;
     text-align: center;
+}
+
+footer {
+    background-color: #2C5282;
+    color: #FFFFFF;
 }
