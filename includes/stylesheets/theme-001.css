@@ -1,23 +1,24 @@
 body {
     font-family: Georgia, "Times New Roman", Times, serif;
-    display: flex;
     margin: 0;
+    padding: 0;
     padding: 20px;
 }
 
 .topIm {
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
 }
 
 header {
     background-color: #63B3ED;
-}
-
-header h1 {
-    font-size: 36px;    
 }
 
 main {
@@ -31,11 +32,13 @@ aside {
     margin-left: 20px;
 }
 
-.firefox-ima {
-    float: left;
+.chrome-ima, .firefox-ima {
+    display: block;
+    width: 77px;
+    height: 77px;
 }
 
-footer {
-    flex: 0;
+header, footer {
     padding: 20px;
+    text-align: center;
 }
